@@ -8,6 +8,9 @@ struct ContentView: View {
       Button("show half modal") {
         isShowHalfModal.toggle()
       }
+      NavigationLink("show photo picker with half modal") {
+        PhotoPickerView()
+      }
     }
     .listStyle(.plain)
     .navigationTitle("Style Guide")

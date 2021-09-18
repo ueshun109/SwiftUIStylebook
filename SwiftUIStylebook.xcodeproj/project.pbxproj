@@ -12,6 +12,7 @@
 		F4FFADB126EB476400B20477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FFADB026EB476400B20477 /* Assets.xcassets */; };
 		F4FFADB426EB476400B20477 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FFADB326EB476400B20477 /* Preview Assets.xcassets */; };
 		F4FFADBC26EB47BB00B20477 /* HalfModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFADBB26EB47BB00B20477 /* HalfModalView.swift */; };
+		F4FFADBE26EC980F00B20477 /* PhotoPickerWithHalfModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFADBD26EC980F00B20477 /* PhotoPickerWithHalfModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F4FFADB026EB476400B20477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4FFADB326EB476400B20477 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4FFADBB26EB47BB00B20477 /* HalfModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalView.swift; sourceTree = "<group>"; };
+		F4FFADBD26EC980F00B20477 /* PhotoPickerWithHalfModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerWithHalfModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 		F4FFADAB26EB476000B20477 /* SwiftUIStylebook */ = {
 			isa = PBXGroup;
 			children = (
-				F4FFADBA26EB47A000B20477 /* Views */,
+				F4FFADBA26EB47A000B20477 /* UIComponents */,
 				F4FFADAC26EB476000B20477 /* SwiftUIStylebookApp.swift */,
 				F4FFADAE26EB476000B20477 /* ContentView.swift */,
 				F4FFADB026EB476400B20477 /* Assets.xcassets */,
@@ -70,12 +72,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F4FFADBA26EB47A000B20477 /* Views */ = {
+		F4FFADBA26EB47A000B20477 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
 				F4FFADBB26EB47BB00B20477 /* HalfModalView.swift */,
+				F4FFADBD26EC980F00B20477 /* PhotoPickerWithHalfModal.swift */,
 			);
-			path = Views;
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FFADAF26EB476000B20477 /* ContentView.swift in Sources */,
+				F4FFADBE26EC980F00B20477 /* PhotoPickerWithHalfModal.swift in Sources */,
 				F4FFADBC26EB47BB00B20477 /* HalfModalView.swift in Sources */,
 				F4FFADAD26EB476000B20477 /* SwiftUIStylebookApp.swift in Sources */,
 			);
