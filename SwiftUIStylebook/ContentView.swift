@@ -11,6 +11,9 @@ struct ContentView: View {
       NavigationLink("show photo picker with half modal") {
         PhotoPickerView()
       }
+      NavigationLink("show pager trip") {
+        Pager()
+      }
     }
     .listStyle(.plain)
     .navigationTitle("Style Guide")

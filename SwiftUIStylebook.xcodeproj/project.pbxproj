@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC794A4B273FC4BA00D65EF7 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC794A4A273FC4BA00D65EF7 /* Pager.swift */; };
 		F4FFADAD26EB476000B20477 /* SwiftUIStylebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFADAC26EB476000B20477 /* SwiftUIStylebookApp.swift */; };
 		F4FFADAF26EB476000B20477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFADAE26EB476000B20477 /* ContentView.swift */; };
 		F4FFADB126EB476400B20477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FFADB026EB476400B20477 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC794A4A273FC4BA00D65EF7 /* Pager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pager.swift; sourceTree = "<group>"; };
 		F4FFADA926EB476000B20477 /* SwiftUIStylebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStylebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FFADAC26EB476000B20477 /* SwiftUIStylebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStylebookApp.swift; sourceTree = "<group>"; };
 		F4FFADAE26EB476000B20477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				F4FFADBB26EB47BB00B20477 /* HalfModalView.swift */,
 				F4FFADBD26EC980F00B20477 /* PhotoPickerWithHalfModal.swift */,
+				BC794A4A273FC4BA00D65EF7 /* Pager.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FFADAF26EB476000B20477 /* ContentView.swift in Sources */,
+				BC794A4B273FC4BA00D65EF7 /* Pager.swift in Sources */,
 				F4FFADBE26EC980F00B20477 /* PhotoPickerWithHalfModal.swift in Sources */,
 				F4FFADBC26EB47BB00B20477 /* HalfModalView.swift in Sources */,
 				F4FFADAD26EB476000B20477 /* SwiftUIStylebookApp.swift in Sources */,
