@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BC794A4B273FC4BA00D65EF7 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC794A4A273FC4BA00D65EF7 /* Pager.swift */; };
+		BC7FA8AE2771C9B800A26503 /* AccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FA8AD2771C9B800A26503 /* AccordionView.swift */; };
+		BCC1F6362743865800F15913 /* CoordinatorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1F6352743865800F15913 /* CoordinatorLayout.swift */; };
 		F4FFADAD26EB476000B20477 /* SwiftUIStylebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFADAC26EB476000B20477 /* SwiftUIStylebookApp.swift */; };
 		F4FFADAF26EB476000B20477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFADAE26EB476000B20477 /* ContentView.swift */; };
 		F4FFADB126EB476400B20477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FFADB026EB476400B20477 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		BC794A4A273FC4BA00D65EF7 /* Pager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pager.swift; sourceTree = "<group>"; };
+		BC7FA8AD2771C9B800A26503 /* AccordionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionView.swift; sourceTree = "<group>"; };
+		BCC1F6352743865800F15913 /* CoordinatorLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorLayout.swift; sourceTree = "<group>"; };
 		F4FFADA926EB476000B20477 /* SwiftUIStylebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStylebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FFADAC26EB476000B20477 /* SwiftUIStylebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStylebookApp.swift; sourceTree = "<group>"; };
 		F4FFADAE26EB476000B20477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				F4FFADBB26EB47BB00B20477 /* HalfModalView.swift */,
 				F4FFADBD26EC980F00B20477 /* PhotoPickerWithHalfModal.swift */,
 				BC794A4A273FC4BA00D65EF7 /* Pager.swift */,
+				BCC1F6352743865800F15913 /* CoordinatorLayout.swift */,
+				BC7FA8AD2771C9B800A26503 /* AccordionView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -154,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC1F6362743865800F15913 /* CoordinatorLayout.swift in Sources */,
 				F4FFADAF26EB476000B20477 /* ContentView.swift in Sources */,
 				BC794A4B273FC4BA00D65EF7 /* Pager.swift in Sources */,
+				BC7FA8AE2771C9B800A26503 /* AccordionView.swift in Sources */,
 				F4FFADBE26EC980F00B20477 /* PhotoPickerWithHalfModal.swift in Sources */,
 				F4FFADBC26EB47BB00B20477 /* HalfModalView.swift in Sources */,
 				F4FFADAD26EB476000B20477 /* SwiftUIStylebookApp.swift in Sources */,

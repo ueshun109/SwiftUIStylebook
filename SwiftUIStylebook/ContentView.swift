@@ -14,6 +14,22 @@ struct ContentView: View {
       NavigationLink("show pager trip") {
         Pager()
       }
+      NavigationLink("show accordion") {
+        VStack {
+          AccordionView(
+            Keyword.samples,
+            children: \.children,
+            selection: { print($0.name) }
+          ) { item in
+            Text(item.name)
+              .foregroundColor(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.6)))
+          }
+          Spacer()
+        }
+      }
+      NavigationLink("dummy") {
+        CoordinatorLayout()
+      }
     }
     .listStyle(.plain)
     .navigationTitle("Style Guide")
