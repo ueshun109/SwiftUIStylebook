@@ -27,6 +27,9 @@ struct ContentView: View {
           Spacer()
         }
       }
+      NavigationLink("Spotlight") {
+        SpotlightExample()
+      }
       NavigationLink("dummy") {
         CoordinatorLayout()
       }

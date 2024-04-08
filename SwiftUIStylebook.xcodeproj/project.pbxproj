@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F15886C290D08DC0020892C /* OffsetableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F15886B290D08DC0020892C /* OffsetableScrollView.swift */; };
+		6F15886E290D0E920020892C /* StickyHeaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F15886D290D0E920020892C /* StickyHeaderScrollView.swift */; };
+		6F5A2A4E28A0B973006A52DA /* ContentOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2A4D28A0B973006A52DA /* ContentOffsetPreferenceKey.swift */; };
+		6F5A2A5028A20245006A52DA /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2A4F28A20245006A52DA /* ScrollViewController.swift */; };
+		6FAF8C4E2BC3D44000C92AC7 /* SpotlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF8C4D2BC3D44000C92AC7 /* SpotlightView.swift */; };
 		BC794A4B273FC4BA00D65EF7 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC794A4A273FC4BA00D65EF7 /* Pager.swift */; };
 		BC7FA8AE2771C9B800A26503 /* AccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FA8AD2771C9B800A26503 /* AccordionView.swift */; };
 		BCC1F6362743865800F15913 /* CoordinatorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1F6352743865800F15913 /* CoordinatorLayout.swift */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F15886B290D08DC0020892C /* OffsetableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetableScrollView.swift; sourceTree = "<group>"; };
+		6F15886D290D0E920020892C /* StickyHeaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderScrollView.swift; sourceTree = "<group>"; };
+		6F5A2A4D28A0B973006A52DA /* ContentOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOffsetPreferenceKey.swift; sourceTree = "<group>"; };
+		6F5A2A4F28A20245006A52DA /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		6FAF8C4D2BC3D44000C92AC7 /* SpotlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightView.swift; sourceTree = "<group>"; };
 		BC794A4A273FC4BA00D65EF7 /* Pager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pager.swift; sourceTree = "<group>"; };
 		BC7FA8AD2771C9B800A26503 /* AccordionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionView.swift; sourceTree = "<group>"; };
 		BCC1F6352743865800F15913 /* CoordinatorLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorLayout.swift; sourceTree = "<group>"; };
@@ -42,6 +52,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F5A2A4C28A0B940006A52DA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A2A4D28A0B973006A52DA /* ContentOffsetPreferenceKey.swift */,
+				6F5A2A4F28A20245006A52DA /* ScrollViewController.swift */,
+				6F15886B290D08DC0020892C /* OffsetableScrollView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		F4FFADA026EB476000B20477 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +81,7 @@
 		F4FFADAB26EB476000B20477 /* SwiftUIStylebook */ = {
 			isa = PBXGroup;
 			children = (
+				6F5A2A4C28A0B940006A52DA /* Shared */,
 				F4FFADBA26EB47A000B20477 /* UIComponents */,
 				F4FFADAC26EB476000B20477 /* SwiftUIStylebookApp.swift */,
 				F4FFADAE26EB476000B20477 /* ContentView.swift */,
@@ -86,6 +107,8 @@
 				BC794A4A273FC4BA00D65EF7 /* Pager.swift */,
 				BCC1F6352743865800F15913 /* CoordinatorLayout.swift */,
 				BC7FA8AD2771C9B800A26503 /* AccordionView.swift */,
+				6F15886D290D0E920020892C /* StickyHeaderScrollView.swift */,
+				6FAF8C4D2BC3D44000C92AC7 /* SpotlightView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -162,11 +185,16 @@
 			files = (
 				BCC1F6362743865800F15913 /* CoordinatorLayout.swift in Sources */,
 				F4FFADAF26EB476000B20477 /* ContentView.swift in Sources */,
+				6F15886C290D08DC0020892C /* OffsetableScrollView.swift in Sources */,
+				6F5A2A4E28A0B973006A52DA /* ContentOffsetPreferenceKey.swift in Sources */,
 				BC794A4B273FC4BA00D65EF7 /* Pager.swift in Sources */,
+				6F5A2A5028A20245006A52DA /* ScrollViewController.swift in Sources */,
 				BC7FA8AE2771C9B800A26503 /* AccordionView.swift in Sources */,
 				F4FFADBE26EC980F00B20477 /* PhotoPickerWithHalfModal.swift in Sources */,
 				F4FFADBC26EB47BB00B20477 /* HalfModalView.swift in Sources */,
+				6F15886E290D0E920020892C /* StickyHeaderScrollView.swift in Sources */,
 				F4FFADAD26EB476000B20477 /* SwiftUIStylebookApp.swift in Sources */,
+				6FAF8C4E2BC3D44000C92AC7 /* SpotlightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -305,7 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,7 +363,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
