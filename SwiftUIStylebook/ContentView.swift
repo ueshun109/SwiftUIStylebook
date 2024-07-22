@@ -30,6 +30,14 @@ struct ContentView: View {
       NavigationLink("Spotlight") {
         SpotlightExample()
       }
+      NavigationLink("HorizontalScrollView") {
+        HorizontalScrollView(data: horizontalImages, id: \.self) {
+          Image(systemName: $0)
+            .resizable()
+            .scaledToFit()
+            .frame(width: 50, height: 50)
+        }
+      }
       NavigationLink("dummy") {
         CoordinatorLayout()
       }
